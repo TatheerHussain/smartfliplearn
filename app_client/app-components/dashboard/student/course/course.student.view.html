@@ -1,0 +1,41 @@
+<div class="container-fluid p-3 pt-4 animated fadeIn height-100" ng-controller="Course.Student.Controller">
+    <div class="container-fluid text-center">
+        <div class="progress-wrapper">
+            <round-progress
+                max="100"
+                current="course.average"
+                color="{{course.average | gradecolor}}"
+                bgcolor="#eaeaea"
+                radius="70"
+                stroke="15"
+                semi="false"
+                rounded="true"
+                clockwise="false"
+                responsive="false"
+                duration="800"
+                animation="easeInOutQuart"
+                animation-delay="0">
+            </round-progress>
+            <div class="text text-muted" style="font-size: 34px;"><b>{{course.average}}%</b></div>
+        </div>
+    </div>
+    <div class="divide-header pt-3 pb-3 text-uppercase">
+        <span>lectures</span>
+    </div>
+    <table ng-table="tableParams" class="table table-sm table-hover text-center">
+        <tr ng-repeat="lecture in $data">
+            <td class="align-middle text-capitalize" title="'Title'" sortable="'title'">
+                {{lecture.title}}
+            </td>
+            <td class="align-middle" title="'Date'" sortable="'date'">
+                {{lecture.schedule.date | date:'MM/dd/yy'}}
+            </td>
+            <td class="align-middle text-capitalize" title="'Day'" sortable="'day'">
+                {{lecture.schedule.day}}
+            </td>
+            <td class="align-middle" title="'Live'">
+                <button type="button" class="btn btn-outline-success btn-sm" ng-show="lecture.live" ng-click="joinLiveLecture(lecture, $index)">Join</button>
+            </td>
+        </tr>
+    </table>
+</div>

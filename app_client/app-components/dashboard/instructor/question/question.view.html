@@ -1,0 +1,116 @@
+<div class="container-fluid p-5 animated fadeIn height-100" ng-controller="Instructor.Question.Controller">
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between pb-2">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-secondary btn-sm" ng-click="state = 'cancel'; edit()" ng-show="state === 'edit'">
+                    <i class="fa fa-pencil-square fa-fw" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="btn btn-secondary btn-sm" ng-click="state = 'edit'; cancel()" ng-show="state === 'cancel'">
+                    <i class="fa fa-times fa-fw" aria-hidden="true"></i>
+                </button>
+                <button
+                    type="button"
+                    class="btn btn-secondary btn-sm active"
+                    ng-click="question.trueFalse = !question.trueFalse; setChoicesTrueFalse()"
+                    data-toggle="button"
+                    ng-show="state === 'cancel'"
+                    aria-pressed="true"
+                    autocomplete="off">
+                    T/F
+                </button>
+                <button
+                    type="button"
+                    class="btn btn-secondary btn-sm"
+                    ng-click="state = 'edit'; save()"
+                    ng-disabled="state === 'edit' || question.tags.length === 0 || question.choices.length < 2 || answersEmpty()">
+                        <i class="fa fa-check fa-fw" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div>
+                <button
+                    type="button"
+                    class="btn btn-success btn-sm"
+                    ng-hide="question.html.title === null || state === 'cancel' || question.tags.length === 0 || question.choices.length < 2 || answersEmpty()"
+                    ng-click="submit()">Submit
+                </button>
+            </div>
+        </div>
+        <div ng-editor="question-container" value="question.html" editor="editor">
+            <div data-editable="title" ng-if="question.html.title !== null" ng-bind-html="question.html.title" class="pb-4"></div>
+            <div data-editable="title" ng-if="question.html.title === null" class="pb-4">
+                <h2 class="text-center">Question Title</h2>
+            </div>
+            <div data-editable="body" ng-if="question.html.body !== null" ng-bind-html="question.html.body" class="text-center"></div>
+            <div data-editable="body" ng-if="question.html.body === null" class="text-center">
+                <p class="text-left">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus ac ex eget malesuada. Pellentesque tincidunt nulla dictum
+                    nibh porta molestie. Nunc rutrum ultricies venenatis. Sed vulputate placerat elementum. Vivamus commodo sit amet eros nec facilisis.
+                    Nulla neque nulla, consectetur non lobortis ut, congue vitae massa. Quisque condimentum dui massa, interdum semper urna tristique et.
+                    Vivamus mollis libero lectus, id consectetur sem semper at. Nunc viverra tellus molestie, tempus sem eget, dictum turpis.
+                    Integer et aliquet diam. Vivamus tempus magna odio, eu auctor tortor molestie sit amet. Cras luctus nec urna nec ultricies.
+                    Aenean ut elit eleifend, efficitur nisl vel, maximus sem. Morbi consectetur nunc at ligula tristique, non bibendum enim consequat.
+                    Sed mollis justo purus, in lobortis tortor dapibus ut.
+                </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end pt-2" ng-show="state === 'edit'">
+            <span class="badge badge-default mr-1 text-uppercase" ng-repeat="tag in question.tags">{{tag.text}}</span>
+        </div>
+        <div class="pt-4" ng-show="state === 'edit'">
+            <div ng-repeat="choice in question.choices">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="answers">
+                     {{choice.text}}
+                </label>
+            </div>
+        </div>
+        <div class="pt-4" ng-show="state === 'cancel'">
+            <div class="row">
+                <div class="col-lg pb-2">
+                    <div class="input-group">
+                        <tags-input
+                            class="text-uppercase"
+                            ng-model="question.tags"
+                            min-length="1"
+                            placeholder="Question Tags (Required)"
+                            style="width: 100%;">
+                        </tags-input>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="input-group pb-2" ng-repeat="choice in question.choices">
+                        <span class="input-group-btn">
+                            <button
+                                class="btn btn-success"
+                                ng-class="{ 'active': choice.answer == true }"
+                                type="button"
+                                ng-click="answerSelected($index)"
+                                ng-disabled="question.choices.length === 1">
+                                    <i class="fa fa-check fa-fw" aria-hidden="true" ng-show="choice.answer == true"></i>
+                                    <i class="fa fa-ellipsis-h fa-fw" aria-hidden="true" ng-show="choice.answer == false"></i>
+                            </button>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Enter Answer" ng-model="choice.text">
+                        <span class="input-group-btn" ng-show="question.trueFalse == false">
+                            <button class="btn btn-danger" type="button" ng-click="removeChoice($index)" ng-disabled="question.choices.length === 1">
+                                <i class="fa fa-times fa-fw" aria-hidden="true"></i>
+                            </button>
+                        </span>
+                    </div>
+                    <div class="container-fluid p-0 m-0 answer text-center align-middle" ng-click="addNewChoice()" ng-show="question.trueFalse == false && question.choices.length <= 6">
+                        <p class="m-0">
+                            Add Answer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <pre>
+        {{selected_question | json}}
+    </pre> -->
+    <!-- <div class="container-fluid">
+        <div ng-bind-html="question.title"></div>
+        <div ng-bind-html="question.body"></div>
+    </div> -->
+</div>

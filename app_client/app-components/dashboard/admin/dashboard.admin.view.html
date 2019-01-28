@@ -1,0 +1,54 @@
+<div class="container-fluid p-3 animated fadeIn height-100" ng-controller="Admin.Dashboard.Controller">
+    <div class="container-fluid p-0 pb-2">
+      <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-search fa-fw" aria-hidden="true"></i></div>
+          <input class="form-control" type="text" placeholder="Search Users" ng-model="searchUsers">
+          <span class="input-group-btn">
+              <button type="button" class="btn btn-outline-success" ng-disabled="loading" ng-click="commitChanges()">
+                  <span ng-show="loading">
+                      <i class="fa fa-circle-o-notch fa-spin"></i>
+                  </span>
+                  Save Changes
+              </button>
+          </span>
+      </div>
+    </div>
+    <table ng-table="tableParams" class="table table-hover table-sm text-center mb-2">
+        <tr
+        ng-repeat="user in $data | filter:searchUsers"
+        ng-init="initUser(user, $index)"
+        ng-if="user.username != $storage.username"
+        ng-class="{ 'table-active': changes[user.username].changed_role ||
+                    changes[user.username].changed_active,
+                    'table-success': changes[user.username].commited === true,
+                    'table-error': changes[user.username].error === true}">
+            <td title="'Firstname'" sortable="'firstname'" class="align-middle text-capitalize">
+                {{user.firstname}}
+            </td>
+            <td title="'Lastname'" sortable="'lastname'" class="align-middle text-capitalize">
+                {{user.lastname}}
+            </td>
+            <td title="'Username'" sortable="'username'" class="align-middle">
+                {{user.username}}
+            </td>
+            <td title="'Active'" class="align-items-center">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"
+                        ng-model="changes[user.username].active"
+                        ng-click="changes[user.username].changed_active = !changes[user.username].changed_active;
+                              changes[user.username].commited = false">
+                     {{choice.text}}
+                </label>
+            </td>
+            <td title="'Role'" sortable="'role'" class="align-middle">
+                <select
+                    class="custom-select form-control form-control-sm text-capitalize"
+                    ng-model="changes[user.username].role"
+                    ng-click="changes[user.username].changed_role = true;
+                              changes[user.username].commited = false"
+                    ng-options="role.name as role.name for role in roles">
+                </select>
+            </td>
+        </tr>
+    </table>
+</div>
