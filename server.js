@@ -1,3 +1,5 @@
+/* jshint node: true */
+
 "use strict";
 
 var app_api_v2 = require('./app_api_v2'),
