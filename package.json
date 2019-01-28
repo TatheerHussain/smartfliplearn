@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/TatheerHussain/smartfliplearn/issues"
   },
-  "homepage": "https://github.com/TatheerHussain/smartfliplearn#readme"
+  "homepage": "https://github.com/TatheerHussain/smartfliplearn#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
