@@ -60,12 +60,12 @@ button {
 }
 
 .btn-navbar {
-    background-color: #276AD1;
+    background-color: rgb(26, 66, 26);
     color: white;
 }
 
 .btn-navbar:hover {
-    background-color: #2666CA;
+    background-color: rgb(4, 20, 10);
 }
 
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
@@ -213,7 +213,7 @@ a:hover {
 }
 
 .navbar {
-    background-color: #2D76E8;
+    background-color: rgb(15, 56, 11);
     border-bottom: 0.125rem solid #276AD1;
 }
 
@@ -371,11 +371,11 @@ a:hover {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #56CCF2, #2F80ED);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #56CCF2, #2F80ED);
+    background: linear-gradient(to left, rgb(58, 27, 87), rgb(21, 139, 60));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100%;
     overflow: hidden;
-    color: #2A2C3A;
+    color: rgb(160, 163, 184);
 }
 
 .img-login {
