@@ -1,0 +1,28 @@
+{
+  "name": "smartfliplearn",
+  "version": "1.0.0",
+  "description": "Application for smart flip classroom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatheerHussain/smartfliplearn.git"
+  },
+  "keywords": [
+    "smart",
+    "flip",
+    "classroom",
+    "active",
+    "learn",
+    "flip",
+    "learn"
+  ],
+  "author": "Tatheer Hussain Mir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatheerHussain/smartfliplearn/issues"
+  },
+  "homepage": "https://github.com/TatheerHussain/smartfliplearn#readme"
+}
