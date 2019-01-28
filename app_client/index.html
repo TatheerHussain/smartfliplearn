@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Smart flip classroom</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app-css/default.css" />
+    <link rel="stylesheet" href="app-css/style.css" />
+    <link rel="stylesheet" href="app-css/ng-tags-input.bootstrap.min.css" />
+    <link rel="stylesheet" href="app-css/stars.css" />
+    <!-- Get rid of annoying favico error -->
+    <link rel="shortcut icon" href=" " />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <!-- Views -->
+    <div class="height-100" ng-controller="Main.Controller">
+        <div class="login-back" ng-hide="$storage.LoggedIn" ui-view="splash"></div>
+        <div ui-view="navbar"></div>
+        <div class="height-100" id="wrapper" ng-class="{'toggled' : $storage.hideSidebar }" ng-show="$storage.LoggedIn">
+            <div ui-view="sidebar"></div>
+            <div ui-view="dashboard" class="height-100"></div>
+        </div>
+    </div>
+
+    <!-- Necessary JS -->
+    <script src="app-scripts/default.js"></script>
+    <!-- <script src="app-scripts/content-tools/content-tools.min.js"></script> -->
+    <!-- application scripts -->
+    <script src="app.js"></script>
+</body>
+
+</html>
