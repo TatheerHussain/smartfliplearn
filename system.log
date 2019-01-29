@@ -1,0 +1,135 @@
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T07:07:42.139Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T07:07:42.140Z"}
+{"level":"info","message":"authenticateController: Authenticate user: instructor1@g.ncu.edu.tw","timestamp":"2019-01-29T07:07:42.141Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:32:48.285Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:32:48.297Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:32:48.297Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:32:48.297Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:32:48.297Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:32:48.506Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:32:48.506Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:32:48.506Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:32:52.573Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:32:52.574Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:32:52.574Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:32:52.574Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:32:52.574Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:32:52.710Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:32:52.710Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:32:52.711Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:33:00.410Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:33:00.410Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:33:00.410Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:33:00.410Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:33:00.410Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:33:00.549Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:33:00.549Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:33:00.549Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:33:04.508Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:33:04.508Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:33:04.508Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:33:04.509Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:33:04.509Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:33:04.653Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:33:04.653Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:33:04.653Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:33:42.337Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:33:42.338Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:33:42.338Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:33:42.338Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:33:42.338Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:33:42.478Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:33:42.478Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:33:42.478Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:34:18.695Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:34:18.696Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:34:18.696Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:34:18.696Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:34:18.696Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:34:18.839Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:34:18.839Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:34:18.839Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:34:31.471Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:34:31.471Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:34:31.471Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:34:31.471Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:34:31.471Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:34:31.609Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:34:31.610Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:34:31.610Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:34:32.895Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:34:32.895Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:34:32.895Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:34:32.895Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:34:32.895Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:34:33.039Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:34:33.039Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:34:33.039Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:34:35.664Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:34:35.664Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:34:35.664Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:34:35.664Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:34:35.664Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:34:35.800Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:34:35.801Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:34:35.801Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:37:10.518Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:37:10.518Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:37:10.519Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:37:10.519Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:37:10.519Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:37:10.665Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:37:10.666Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:37:10.666Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:37:13.255Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:37:13.256Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:37:13.256Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:37:13.256Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:37:13.256Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:37:13.393Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:37:13.393Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:37:13.393Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:37:52.873Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:37:52.873Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:37:52.873Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:37:52.874Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:37:52.874Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:37:53.020Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:37:53.020Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:37:53.020Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:38:03.041Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:38:03.041Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:38:03.041Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:38:03.041Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:38:03.041Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:38:03.182Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:45:06.785Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:45:06.786Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:45:06.787Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:45:06.787Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:45:06.787Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:45:06.965Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:45:06.965Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:45:06.965Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:45:16.768Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:45:16.769Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:45:16.769Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:45:16.769Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:45:16.769Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:45:16.914Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:45:34.608Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:45:34.609Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:45:34.609Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:45:34.609Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:45:34.609Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:45:34.755Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:45:34.755Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:45:34.755Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-29T10:56:16.982Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-29T10:56:16.984Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-29T10:56:16.984Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-29T10:56:16.984Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-29T10:56:16.984Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-29T10:56:17.159Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-29T10:56:17.159Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-29T10:56:17.160Z"}
