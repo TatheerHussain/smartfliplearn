@@ -31,29 +31,29 @@ app.controller('Create.Course.Controller', function($scope, $element, $state, RE
 
     $scope.prefixes = [{
         id: 0,
-        name: "CS"
+        name: "MMT"
     }, {
         id: 1,
-        name: "CE"
+        name: "SmartFC"
     }, {
         id: 2,
-        name: "CM"
+        name: "DL"
     }, {
         id: 3,
-        name: "ME"
+        name: "LI"
     }, {
         id: 4,
-        name: "MA"
+        name: "GBL"
     }];
 
     $scope.days = [{
         id: 0,
-        name: "MWF",
-        daysArr: ["mon", "wed", "fri"]
+        name: "MTWTF",
+        daysArr: ["mon","tue", "wed","thu", "fri"]
     }, {
         id: 1,
-        name: "TR",
-        daysArr: ["tue", "thu"]
+        name: "SS",
+        daysArr: ["sat", "sun"]
     }];
 
     $scope.create = function() {
