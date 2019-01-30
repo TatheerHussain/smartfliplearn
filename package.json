@@ -26,15 +26,19 @@
   },
   "homepage": "https://github.com/TatheerHussain/smartfliplearn#readme",
   "dependencies": {
-    "express": "^4.14.0",
     "bcryptjs": "^2.4.0",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
-    "jsonwebtoken": "^7.2.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
     "mongoose": "^4.7.7",
     "random-key": "^0.3.2",
-    "socket.io": "^1.7.3",
+    "socket.io": "^2.2.0",
     "socketio-jwt": "^4.5.0",
     "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.9.7"
   }
 }
