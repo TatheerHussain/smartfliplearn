@@ -55,7 +55,7 @@ var generateToken = function(req, res) {
 
     var claims = {
         exp: Math.floor(Date.now() / 1000) + (60 * SIXTY_MINUTES),
-        iss: 'activelearning2110.com',
+        iss: 'fliplearning.com',
         sub: req.user_id,
         role: req.user_role
     };

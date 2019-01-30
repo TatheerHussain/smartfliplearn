@@ -15,12 +15,16 @@ var authorizeController = require('./../controllers/authorizeController');
 
 /**
 REGISTER USER
+
 POST	/api_v2/signup?role={user_role}/
+
 Authentication: none
 Authorization:  none
+
 Path Parameters: none
 Query String:    none
 Query String:    role  Pass either 'admin' or 'instructor' required for admin or instructor registration
+
 Request Body application/json
 {
   "username"  : String Required
@@ -42,9 +46,12 @@ signupRouter.route('/')
 
 /**
 CREATE ADMIN REGISTRATION KEY
+
 POST	/api_v2/signup/admin_key
+
 Authentication:   user token        required
 Authorization:    admin             required
+
 Path Parameters:  none
 Query String:     none
 Request Body:     none
@@ -58,9 +65,11 @@ signupRouter.route('/admin_key')
 
 /**
 CREATE INSTRUCTOR REGISTRATION KEY
+
 POST	/api_v2/signup/instructor_key
 Authentication:   user token        required
 Authorization:    admin             required
+
 Path Parameters:  none
 Query String:     none
 Request Body:     none
@@ -73,9 +82,11 @@ signupRouter.route('/instructor_key')
 
 /**
 GET REGISTRATION KEYS
+
 GET	/api_v2/signup/registration_key
 Authentication:   user token        required
 Authorization:    admin             required
+
 Path Parameters:  none
 Query String:     none
 Request Body:     none
@@ -87,3 +98,4 @@ signupRouter.route('/registration_key')
         signupController.getRegistrationKeys);
 
 module.exports = signupRouter;
+

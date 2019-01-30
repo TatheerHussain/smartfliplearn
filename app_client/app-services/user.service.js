@@ -287,6 +287,11 @@ app.filter('gradecolor', function() {
     };
 });
 
+// need to check this block of code 
+//
+//
+//
+
 app.filter('days', function() {
     return function(str) {
         return str.includes("mon") ? "MWF" : "TR";

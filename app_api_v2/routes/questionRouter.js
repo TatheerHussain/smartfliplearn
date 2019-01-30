@@ -13,9 +13,11 @@ var tokenController = require('./../controllers/tokenController');
 
 /**
 Add Question
+
 POST	/api_v2/question
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  question_id String	required
 Query String:     none
 Request Body: application/json
@@ -39,10 +41,11 @@ questionRouter.route('/')
 /**
 Get All Questions
 *Does not return copied questions and only returns Question snapshot.
-*Call /question/{question_id}/ for full details
+
 GET	/api_v2/question?tag={query_string}/
 Authentication:   user token
 Authorization:    none
+
 Path Parameters:  none
 Query String:     query_string String optional
 Example:          /question?tag=cs%202110&tag=chapter%205&tag=c%20language searches for tags ["cs 2110", "chapter 5", "c language"]
@@ -56,9 +59,11 @@ questionRouter.route('/')
 
 /**
 Get Question Full Details
+
 GET	/api_v2/question/{question_id}/
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  question_id String	required
 Query String:     none
 Request Body: 	  none
@@ -71,9 +76,11 @@ questionRouter.route('/:QUESTIONID')
 /**
 Copy Question From Existing
 *Does not allow instructor to copy their own Question.
+
 PUT /api_v2/question/{question_id}/copy
 Authentication:   user 	token
 Authorization: 	  instructor
+
 Path Parameters: 	question_id	String	required
 Query String:     none
 Request Body:     none
@@ -86,9 +93,11 @@ questionRouter.route('/:QUESTIONID/copy')
 
 /**
 Delete Question
+
 DELETE	/api_v2/questions/{question_id}/
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  question_id String	required
 Query String:     none
 Request Body: 	  none
@@ -102,8 +111,10 @@ questionRouter.route('/:QUESTIONID')
 /**
 Edit Question
 POST /api_v2/questions/{question_id}/
+
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  question_id String	    required
 Query String:     none
 Request Body: 	  application/.json 		required
@@ -122,4 +133,6 @@ questionRouter.route('/:QUESTIONID')
 		    questionController.editQuestion);
 
 
+
 module.exports = questionRouter;
+

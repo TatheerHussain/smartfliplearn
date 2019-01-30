@@ -110,7 +110,7 @@ var getRegistrationKeys = function(req, res) {
 var registerAdmin = function(req, res, next) {
     winston.info('signupController: register admin');
 
-    if (req.body.username === 'admin@gatech.edu') {
+    if (req.body.username === 'admin@g.ncu.edu.tw') {
         req.addUser = new User({
             username: req.body.username,
             password: bcrypt.hashSync(req.body.password, bcrypt.genSaltSync(10)),

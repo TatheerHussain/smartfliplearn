@@ -114,7 +114,7 @@ app.directive('gatech', function() {
             ctrl.$parsers.unshift(function(value) {
                 var valid = false;
                 if (value) {
-                    valid = value.toLowerCase().includes('@gatech.edu');
+                    valid = value.toLowerCase().includes('@g.ncu.edu.tw');
                     ctrl.$setValidity('invalidGatech', valid);
                 }
                 return valid ? value : undefined;

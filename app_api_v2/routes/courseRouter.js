@@ -15,9 +15,12 @@ var signupController = require('./../controllers/signupController');
 
 /**
 Create Course
+
 POST	/api_v2/course
+
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  none
 Query String:     none
 Request Body:     application/json     required
@@ -47,7 +50,9 @@ courseRouter.route('/')
 
 /**
 Student join course
+
 POST	/api_v2/course/students
+
 Authentication:   user token
 Authorization:    student
 Path Parameters:  none
@@ -66,9 +71,11 @@ courseRouter.route('/students')
 
 /**
 Add student to course
+
 POST  /api_v2/course/{course_id}/sections/{section_id}/students/
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  course_id, section_id String    required
 Query String:     none
 Request Body:     application/json    required
@@ -88,10 +95,11 @@ courseRouter.route('/:COURSEID/sections/:SECTIONID/students')
         courseController.instructorAddStudent);
 
 /**
-Remove student from course
+
 DELETE	/api_v2/course/{course_id}/sections/{section_id}/students/{user_id}/
 Authentication:   user token
 Authorization:    admin, instructor or self student
+
 Path Parameters:  course_id, user_id String    required
 Query String:     none
 Request Body:     none
@@ -104,9 +112,11 @@ courseRouter.route('/:COURSEID/sections/:SECTIONID/students/:USERID')
 
 /**
 Course info
+
 GET	/api_v2/course/{course_id}/
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  course_id String    required
 Query String:     none
 Request Body:     none
@@ -121,6 +131,7 @@ Add course lecture
 POST	/api_v2/course/{course_id}/lectures
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  course_id String    required
 Query String:     none
 Request Body:     application/json    required
@@ -139,12 +150,12 @@ courseRouter.route('/:COURSEID/lectures')
         authorizeController.instructor,
         lectureController.savedLectureToDB);
 
-
 /**
 Get course lectures
 GET	/api_v2/course/{course_id}/lectures
 Authentication:   user token
 Authorization:    instructor
+
 Path Parameters:  course_id String    required
 Query String:     none
 Request Body:     none
