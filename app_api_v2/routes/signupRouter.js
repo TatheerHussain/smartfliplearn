@@ -1,7 +1,6 @@
 /* jshint node: true */
 /* jshint esversion: 6 */
 
-
 "use strict";
 
 var express = require('express');
@@ -68,7 +67,6 @@ signupRouter.route('/admin_key')
 CREATE INSTRUCTOR REGISTRATION KEY
 
 POST	/api_v2/signup/instructor_key
-
 Authentication:   user token        required
 Authorization:    admin             required
 
@@ -86,7 +84,6 @@ signupRouter.route('/instructor_key')
 GET REGISTRATION KEYS
 
 GET	/api_v2/signup/registration_key
-
 Authentication:   user token        required
 Authorization:    admin             required
 
@@ -101,3 +98,4 @@ signupRouter.route('/registration_key')
         signupController.getRegistrationKeys);
 
 module.exports = signupRouter;
+

@@ -18,12 +18,10 @@ var lectureController = require('./../controllers/lectureController');
 
 /**
 GET ALL USERS
-
 GET	/api_v2/user
 
 Authentication:   user token        required
 Authorization:    admin             required
-
 Path Parameters:  none
 Query String:     none
 Request Body:     none
@@ -38,7 +36,6 @@ userRouter.route('/')
 GET USER
 
 GET	/api_v2/user/{user_id}/
-
 Authentication:   user token        required
 Authorization:    admin or self     required
 
@@ -54,7 +51,6 @@ userRouter.route('/:USERID')
 
 /**
 UPDATE USER
-
 POST	/api_v2/user/{user_id}/
 
 Authentication:   user token        required
@@ -80,11 +76,6 @@ userRouter.route('/:USERID')
 /**
 GET USER COURSES
 
-GET	/api_v2/user/{user_id}/courses
-
-Authentication:   user token                required
-Authorization:    student or instructor     required
-
 Path Parameters:  user_id String    required
 Query String:     none
 Request Body:     none
@@ -98,11 +89,6 @@ userRouter.route('/:USERID/courses')
 
 /**
 UPDATE USER ROLE
-
-POST	/api_v2/user/{user_id}/role
-
-Authentication:   user token        required
-Authorization:    admin             required
 
 Path Parameters:  user_id String    required
 Query String:     none
@@ -121,11 +107,6 @@ userRouter.route('/:USERID/role')
 
 /**
 UPDATE USER PASSWORD
-
-POST	/api_v2/user/{user_id}/password
-
-Authentication:   user token        required
-Authorization:    self              required
 
 Path Parameters:  user_id String    required
 Query String:     none
@@ -147,11 +128,6 @@ userRouter.route('/:USERID/password')
 /**
 DEACTIVATE/REACTIVATE USER
 
-POST	/api_v2/user/{user_id}/deactivate
-
-Authentication:   user token       required
-Authorization:    admin            required
-
 Path Parameters:  user_id String   required
 Query String:     none
 Request Body:     none
@@ -167,11 +143,6 @@ Get All Instructor Questions
 *Only returns snapshot of questions.
 *Call /question/{question_id}/ for full question details
 
-GET	/api_v2/user/{instructor_id}/questions
-
-Authentication:   user token
-Authorization:    instructor
-
 Path Parameters:  question_id String	required
 Query String:     none
 Request Body: 	  none
@@ -184,11 +155,6 @@ userRouter.route('/:USERID/questions')
 /**
 Get All Instructor Question Sets
 
-GET	/api_v2/user/{instructor_id}/questionsets
-
-Authentication:   user token
-Authorization:    instructor
-
 Path Parameters:  question_id String	required
 Query String:     none
 Request Body: 	  none
@@ -198,5 +164,5 @@ userRouter.route('/:USERID/questionsets')
         tokenController.refreshToken,
         lectureController.getAllQuestionSets);
 
-
 module.exports = userRouter;
+

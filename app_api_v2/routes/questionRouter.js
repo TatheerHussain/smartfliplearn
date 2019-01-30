@@ -1,7 +1,6 @@
 /* jshint node: true */
 /* jshint esversion: 6 */
 
-
 "use strict";
 
 var express = require('express');
@@ -16,7 +15,6 @@ var tokenController = require('./../controllers/tokenController');
 Add Question
 
 POST	/api_v2/question
-
 Authentication:   user token
 Authorization:    instructor
 
@@ -43,10 +41,8 @@ questionRouter.route('/')
 /**
 Get All Questions
 *Does not return copied questions and only returns Question snapshot.
-*Call /question/{question_id}/ for full details
 
 GET	/api_v2/question?tag={query_string}/
-
 Authentication:   user token
 Authorization:    none
 
@@ -65,7 +61,6 @@ questionRouter.route('/')
 Get Question Full Details
 
 GET	/api_v2/question/{question_id}/
-
 Authentication:   user token
 Authorization:    instructor
 
@@ -83,7 +78,6 @@ Copy Question From Existing
 *Does not allow instructor to copy their own Question.
 
 PUT /api_v2/question/{question_id}/copy
-
 Authentication:   user 	token
 Authorization: 	  instructor
 
@@ -101,7 +95,6 @@ questionRouter.route('/:QUESTIONID/copy')
 Delete Question
 
 DELETE	/api_v2/questions/{question_id}/
-
 Authentication:   user token
 Authorization:    instructor
 
@@ -117,7 +110,6 @@ questionRouter.route('/:QUESTIONID')
 
 /**
 Edit Question
-
 POST /api_v2/questions/{question_id}/
 
 Authentication:   user token
@@ -141,4 +133,6 @@ questionRouter.route('/:QUESTIONID')
 		    questionController.editQuestion);
 
 
+
 module.exports = questionRouter;
+
