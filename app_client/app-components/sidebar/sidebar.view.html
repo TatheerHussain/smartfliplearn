@@ -1,0 +1,73 @@
+
+</head>
+<body>
+<div class="sidebar animated fadeIn" id="sidebar-wrapper" ng-controller="Sidebar.Controller">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <div class="container-fluid p-0 m-0">
+                <a href="#">
+
+                    <i class="fas fa-chalkboard-teacher fa-1x align-middle pr-1" aria-hidden="true"></i>
+                        smart Flip learning
+                </a>
+            </div>
+        </li>
+        <li>
+            <a ui-sref=".admin" ng-click="$storage.selectedCourse = 0" ng-show="$storage.role === 'admin'"><i class="fas fa-layer-group pr-3" aria-hidden="true"></i>Dashboard</a>
+            <a ui-sref=".instructor" ng-click="$storage.selectedCourse = 0" ng-show="$storage.role === 'instructor'"><i class="fas fa-layer-group pr-3" aria-hidden="true"></i>Dashboard</a>
+            <a ui-sref=".student" ng-click="$storage.selectedCourse = 0" ng-show="$storage.role === 'student'"><i class="fas fa-layer-group pr-3" aria-hidden="true"></i>Dashboard</a>
+        </li>
+        <li ng-show="$storage.role === 'admin'">
+            <a ui-sref=".admin_keys"><i class="fa fa-key pr-3" aria-hidden="true"></i>Keys</a>
+        </li>
+        <li ng-show="$storage.role === 'instructor' && state === '/instructor/course'">
+            <a href="" ng-click="createLecture()"><i class="fa fa-plus-square pr-3" aria-hidden="true"></i>Create Lecture</a>
+        </li>
+        <li ng-show="$storage.role === 'student' && state === '/student'">
+            <a href="" ng-click="joinCourse()"><i class="fa fa-plus-square pr-3" aria-hidden="true"></i>Join Course</a>
+        </li>
+        <li ng-show="$storage.role === 'instructor' && state === '/instructor'">
+            <a href="" ng-click="createCourse()"><i class="fas fa-file-alt pr-3" aria-hidden="true"></i>Create Course</a>
+        </li>
+        <li ng-show="$storage.role === 'instructor'">
+            <a ui-sref=".instructor_question"><i class="fa fa-magic pr-3" aria-hidden="true"></i>Create Question</a>
+        </li>
+        <li ng-show="$storage.role === 'instructor'">
+            <a ui-sref=".instructor_edit_question"><i class="fa fa-edit pr-3" aria-hidden="true"></i>Edit Questions</a>
+        </li>
+        <li ng-hide="$storage.role === 'admin'">
+            <a
+                role="button" href="javascript:;"
+                data-toggle="collapse"
+                data-target="#classList"
+                aria-expanded="{{$storage.classExpand}}"
+                aria-controls="classList"
+                ng-click="$storage.classExpand = !$storage.classExpand"><i class="fa fa-book pr-3 mr-auto" aria-hidden="true"></i>Courses<i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+            <div class="collapse classList" id="classList">
+                <ul>
+                    <li ng-repeat="course in $storage.courses">
+                        <a ui-sref=".student_course({selectedCourse: $index})" ng-show="$storage.role === 'student'">{{course.title}} : {{course.schedule.days | days}} - {{course.schedule.semester}}</a>
+                        <a ui-sref=".instructor_course({selectedCourse: $index})" ng-show="$storage.role === 'instructor'">{{course.title}} : {{course.schedule.days | days}} - {{course.schedule.semester}}</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li ng-show="$storage.role === 'student' && state === '/student/course'">
+            <a href=""><i class="fa fa-university pr-3" aria-hidden="true"></i>Instructors</a>
+            <ul class="classList">
+                <a class="text-capitalize text-truncate" href="mailto:{{instructor.username}}?subject={{course.title}} - {{course.section}}">
+                    <i class="fa fa-envelope-o pr-2" aria-hidden="true"></i>
+                    {{$storage.courses[$stateParams.selectedCourse].instructor.firstname}}
+                    {{$storage.courses[$stateParams.selectedCourse].instructor.lastname}}
+                </a>
+            </ul>
+        </li>
+        <!-- <li>
+            <a href=""><i class="fa fa-graduation-cap pr-3" aria-hidden="true"></i>Students</a>
+        </li>
+        <li>
+            <a href=""><i class="fa fa-area-chart pr-3" aria-hidden="true"></i>Analytics</a>
+        </li> -->
+    </ul>
+</div>
