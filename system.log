@@ -332,3 +332,761 @@
 {"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T03:58:13.339Z"}
 {"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T04:06:39.812Z"}
 {"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T04:10:20.145Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T07:19:33.471Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T07:19:33.506Z"}
+{"level":"info","message":"authenticateController: Authenticate user: istructorone@g.ncu.edu.tw","timestamp":"2019-01-30T07:19:33.507Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-01-30T07:19:33.830Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-01-30T07:19:33.831Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-01-30T07:19:33.849Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T07:19:33.945Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T07:19:33.949Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-01-30T07:19:33.949Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-01-30T07:19:33.950Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T07:19:33.961Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T07:19:34.044Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T07:19:34.044Z"}
+{"level":"info","message":"authorizeController: student/instructor authorize","timestamp":"2019-01-30T07:19:34.045Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T07:19:34.045Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-30T10:13:39.023Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-30T10:13:39.058Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:13:39.058Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:13:39.058Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-30T10:13:39.058Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-30T10:13:39.059Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-30T10:13:39.059Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-30T10:13:39.245Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:13:39.335Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:13:39.335Z"}
+{"level":"info","message":"authenticateController: Authenticate user: studenttwo@g.ncu.edu.tw","timestamp":"2019-01-30T10:13:39.336Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-01-30T10:13:39.513Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-01-30T10:13:39.513Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-01-30T10:13:39.645Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:13:39.828Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:13:39.830Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-01-30T10:13:39.832Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-01-30T10:13:39.832Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:13:39.853Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:13:40.176Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:13:40.177Z"}
+{"level":"info","message":"authorizeController: student/instructor authorize","timestamp":"2019-01-30T10:13:40.177Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T10:13:40.177Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:13:47.205Z"}
+{"level":"info","message":"tokenController: clear token","timestamp":"2019-01-30T10:13:47.206Z"}
+{"level":"info","message":"tokenController: clear cookie JWT","timestamp":"2019-01-30T10:13:47.206Z"}
+{"level":"info","message":"inputController: require first name","timestamp":"2019-01-30T10:14:13.525Z"}
+{"level":"info","message":"inputController: require last name","timestamp":"2019-01-30T10:14:13.525Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:14:13.525Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:14:13.525Z"}
+{"level":"info","message":"signupController: register admin","timestamp":"2019-01-30T10:14:13.525Z"}
+{"level":"info","message":"signupController: register instructor","timestamp":"2019-01-30T10:14:13.525Z"}
+{"level":"info","message":"signupController: register student","timestamp":"2019-01-30T10:14:13.525Z"}
+{"level":"info","message":"signupController: save user to database","timestamp":"2019-01-30T10:14:13.671Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:14:13.689Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:14:13.690Z"}
+{"level":"info","message":"authenticateController: Authenticate user: studentthree@g.ncu.edu.tw","timestamp":"2019-01-30T10:14:13.690Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-01-30T10:14:13.845Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-01-30T10:14:13.845Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-01-30T10:14:13.846Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:14:13.872Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:14:13.873Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-01-30T10:14:13.873Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-01-30T10:14:13.873Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:14:13.884Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:14:13.917Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:14:13.918Z"}
+{"level":"info","message":"authorizeController: student/instructor authorize","timestamp":"2019-01-30T10:14:13.918Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T10:14:13.918Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:14:22.044Z"}
+{"level":"info","message":"tokenController: clear token","timestamp":"2019-01-30T10:14:22.044Z"}
+{"level":"info","message":"tokenController: clear cookie JWT","timestamp":"2019-01-30T10:14:22.044Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:16:04.226Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:16:04.226Z"}
+{"level":"info","message":"authenticateController: Authenticate user: studentone@g.ncu.edu.tw","timestamp":"2019-01-30T10:16:04.226Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-01-30T10:16:04.371Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-01-30T10:16:04.371Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-01-30T10:16:04.371Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:16:04.426Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:16:04.426Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-01-30T10:16:04.426Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-01-30T10:16:04.427Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:16:04.438Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:16:04.463Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:16:04.464Z"}
+{"level":"info","message":"authorizeController: student/instructor authorize","timestamp":"2019-01-30T10:16:04.464Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T10:16:04.464Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:16:14.560Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:19:33.033Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:19:33.034Z"}
+{"level":"info","message":"authenticateController: Authenticate user: istructorone@g.ncu.edu.tw","timestamp":"2019-01-30T10:19:33.034Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-01-30T10:19:33.181Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-01-30T10:19:33.181Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-01-30T10:19:33.182Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:19:33.271Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:19:33.295Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:19:33.295Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-01-30T10:19:33.295Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-01-30T10:19:33.295Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:19:33.441Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:19:33.441Z"}
+{"level":"info","message":"authorizeController: student/instructor authorize","timestamp":"2019-01-30T10:19:33.441Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T10:19:33.442Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:21:36.410Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:21:36.411Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:21:36.411Z"}
+{"level":"info","message":"inputController: require course title","timestamp":"2019-01-30T10:21:36.411Z"}
+{"level":"info","message":"inputController: require course schedule","timestamp":"2019-01-30T10:21:36.411Z"}
+{"level":"info","message":"inputController: require sections","timestamp":"2019-01-30T10:21:36.412Z"}
+{"level":"info","message":"courseController: save course to database","timestamp":"2019-01-30T10:21:36.412Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:23:34.407Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:23:34.407Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:23:34.407Z"}
+{"level":"info","message":"inputController: require tags","timestamp":"2019-01-30T10:23:34.407Z"}
+{"level":"info","message":"inputController: require question body","timestamp":"2019-01-30T10:23:34.407Z"}
+{"level":"info","message":"inputController: require answer choices","timestamp":"2019-01-30T10:23:34.408Z"}
+{"level":"info","message":"questionController: save question to database","timestamp":"2019-01-30T10:23:34.408Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:23:51.837Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:23:51.837Z"}
+{"level":"info","message":"authorizeController: student authroize","timestamp":"2019-01-30T10:23:51.837Z"}
+{"level":"info","message":"courseController: join course","timestamp":"2019-01-30T10:23:51.838Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T10:23:51.934Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:25:10.565Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:25:40.704Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:25:40.704Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:25:40.704Z"}
+{"level":"info","message":"lectureController: save question to database","timestamp":"2019-01-30T10:25:40.705Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:26:10.917Z"}
+{"level":"error","message":"Socket.io: join lecture error TypeError: Cannot read property 'instructor_socket' of null","timestamp":"2019-01-30T10:26:10.964Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:26:11.099Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:26:11.100Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:26:11.100Z"}
+{"level":"info","message":"Socket.io: ending live lecture: undefined","timestamp":"2019-01-30T10:26:17.409Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:26:47.542Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:26:47.542Z"}
+{"level":"info","message":"authorizeController: student authroize","timestamp":"2019-01-30T10:26:47.542Z"}
+{"level":"info","message":"courseController: join course","timestamp":"2019-01-30T10:26:47.542Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:26:49.438Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:26:49.438Z"}
+{"level":"info","message":"authorizeController: student authroize","timestamp":"2019-01-30T10:26:49.439Z"}
+{"level":"info","message":"courseController: join course","timestamp":"2019-01-30T10:26:49.439Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:27:17.012Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:27:17.013Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:27:17.013Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:27:26.154Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:27:26.154Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:27:26.154Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:27:26.154Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:27:36.851Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:27:36.851Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:27:36.851Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:27:42.586Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:27:42.587Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:27:42.587Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:27:51.507Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:27:51.508Z"}
+{"level":"info","message":"lectureController: save question set","timestamp":"2019-01-30T10:27:51.508Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:27:54.967Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:27:54.967Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:27:54.967Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:28:02.171Z"}
+{"level":"error","message":"Socket.io: Live Lecture Error: 5c517ba4293d091298467981, WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error collection: flilearn.livelectures index: lecture_id_1 dup key: { : \\\"5c517ba4293d091298467981\\\" }\",\"op\":{\"lecture_id\":\"5c517ba4293d091298467981\",\"instructor_socket\":\"/lectures#FsNMR9O-wmlGu1bSAAAF\",\"course_oid\":\"5c517ab0293d09129846797e\",\"_id\":\"5c517c32293d091298467984\",\"__v\":0}})","timestamp":"2019-01-30T10:28:02.178Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:28:02.198Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:28:02.198Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:28:02.198Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:28:02.269Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:28:02.270Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:28:08.008Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:28:27.856Z"}
+{"level":"info","message":"tokenController: clear token","timestamp":"2019-01-30T10:28:27.857Z"}
+{"level":"info","message":"tokenController: clear cookie JWT","timestamp":"2019-01-30T10:28:27.857Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:28:47.420Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:28:47.420Z"}
+{"level":"info","message":"authenticateController: Authenticate user: studenttwo@g.ncu.edu.tw","timestamp":"2019-01-30T10:28:47.420Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:28:57.276Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:28:57.276Z"}
+{"level":"info","message":"authenticateController: Authenticate user: studenttwo@g.ncu.edu.tw","timestamp":"2019-01-30T10:28:57.276Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-01-30T10:28:57.419Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-01-30T10:28:57.420Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-01-30T10:28:57.420Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:28:57.443Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:28:57.444Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-01-30T10:28:57.444Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-01-30T10:28:57.444Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:28:57.456Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:28:57.477Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:28:57.477Z"}
+{"level":"info","message":"authorizeController: student/instructor authorize","timestamp":"2019-01-30T10:28:57.477Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T10:28:57.477Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:29:04.171Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:29:04.171Z"}
+{"level":"info","message":"authorizeController: student authroize","timestamp":"2019-01-30T10:29:04.171Z"}
+{"level":"info","message":"courseController: join course","timestamp":"2019-01-30T10:29:04.171Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T10:29:04.218Z"}
+{"level":"info","message":"Socket.io: user disconnected: istructorone@g.ncu.edu.tw","timestamp":"2019-01-30T10:29:19.667Z"}
+{"level":"info","message":"Socket.io: clearing live lecture 5c517ba4293d091298467981","timestamp":"2019-01-30T10:29:19.667Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:29:19.668Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:29:21.120Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:29:41.323Z"}
+{"level":"info","message":"tokenController: clear token","timestamp":"2019-01-30T10:29:41.324Z"}
+{"level":"info","message":"tokenController: clear cookie JWT","timestamp":"2019-01-30T10:29:41.324Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:29:49.456Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:29:49.456Z"}
+{"level":"info","message":"authenticateController: Authenticate user: admin@g.ncu.edu.tw","timestamp":"2019-01-30T10:29:49.457Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-01-30T10:29:49.604Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-01-30T10:29:49.604Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-01-30T10:29:49.604Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:29:49.680Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:29:49.701Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:29:49.701Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-01-30T10:29:49.701Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-01-30T10:29:49.701Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:29:49.765Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:29:49.765Z"}
+{"level":"info","message":"authorizeController: admin authorization check","timestamp":"2019-01-30T10:29:49.765Z"}
+{"level":"info","message":"userController: get all users","timestamp":"2019-01-30T10:29:49.766Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:29:49.854Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:29:49.854Z"}
+{"level":"info","message":"authorizeController: admin authorization check","timestamp":"2019-01-30T10:29:49.854Z"}
+{"level":"info","message":"signupController: get registration keys","timestamp":"2019-01-30T10:29:49.855Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:30:24.752Z"}
+{"level":"info","message":"tokenController: clear token","timestamp":"2019-01-30T10:30:24.753Z"}
+{"level":"info","message":"tokenController: clear cookie JWT","timestamp":"2019-01-30T10:30:24.753Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-01-30T10:30:32.569Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-01-30T10:30:32.569Z"}
+{"level":"info","message":"authenticateController: Authenticate user: istructorone@g.ncu.edu.tw","timestamp":"2019-01-30T10:30:32.569Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-01-30T10:30:32.715Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-01-30T10:30:32.716Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-01-30T10:30:32.716Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:30:32.744Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:30:32.744Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-01-30T10:30:32.744Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-01-30T10:30:32.744Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-01-30T10:30:32.764Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:30:32.784Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:30:32.784Z"}
+{"level":"info","message":"authorizeController: student/instructor authorize","timestamp":"2019-01-30T10:30:32.785Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-01-30T10:30:32.785Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:30:41.810Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:30:41.822Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:30:41.823Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:30:41.882Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:30:41.882Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:30:41.883Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:30:46.261Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:16.976Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:16.976Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:31:16.976Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:25.448Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:25.448Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:25.448Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:25.449Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:29.116Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:29.117Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:29.117Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:29.117Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:31.586Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:31.587Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:31.587Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:31.587Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:33.075Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:33.075Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:33.075Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:33.075Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:36.377Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:36.377Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:36.377Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:36.377Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:38.551Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:38.551Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:38.551Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:38.551Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:40.567Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:40.567Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:40.568Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:40.568Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:41.705Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:41.706Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:41.706Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:41.706Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:45.488Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:45.488Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:45.488Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:45.489Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:46.607Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:46.607Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:31:46.608Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:31:46.608Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:31:49.374Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:31:49.375Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:31:49.375Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:32:00.651Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:32:00.652Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:32:00.652Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:32:00.652Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:32:03.659Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:32:03.659Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:32:03.659Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:32:03.659Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:32:06.033Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:32:06.034Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:32:06.034Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:32:06.034Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:32:07.273Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:32:07.273Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:32:07.273Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:32:07.273Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:32:09.418Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:32:09.418Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:32:09.418Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:32:09.418Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:32:14.880Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:32:14.880Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:32:14.880Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:33:42.780Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:33:42.780Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:33:42.781Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:33:46.722Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:33:46.722Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:33:46.722Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:33:46.722Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:33:49.698Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:33:49.698Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:33:49.699Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:33:53.703Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:33:53.703Z"}
+{"level":"info","message":"questionController: get instructor questions","timestamp":"2019-01-30T10:33:53.704Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:33:57.433Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:33:57.434Z"}
+{"level":"info","message":"questionController: get question","timestamp":"2019-01-30T10:33:57.434Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:34:02.398Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:34:02.399Z"}
+{"level":"info","message":"questionController: get question","timestamp":"2019-01-30T10:34:02.399Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:34:07.465Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:34:07.465Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:34:07.465Z"}
+{"level":"info","message":"questionController: edit question","timestamp":"2019-01-30T10:34:07.466Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:34:34.822Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:34:34.822Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:34:34.822Z"}
+{"level":"info","message":"lectureController: save question to database","timestamp":"2019-01-30T10:34:34.823Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517dba293d091298467986","timestamp":"2019-01-30T10:34:37.190Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:34:37.218Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:34:37.218Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:34:37.218Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517dba293d091298467986","timestamp":"2019-01-30T10:34:37.307Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517dba293d091298467986, updated user total: 1","timestamp":"2019-01-30T10:34:37.307Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517dba293d091298467986","timestamp":"2019-01-30T10:34:47.324Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:36:08.077Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:36:08.078Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:36:08.078Z"}
+{"level":"info","message":"inputController: require tags","timestamp":"2019-01-30T10:36:08.078Z"}
+{"level":"info","message":"inputController: require question body","timestamp":"2019-01-30T10:36:08.078Z"}
+{"level":"info","message":"inputController: require answer choices","timestamp":"2019-01-30T10:36:08.078Z"}
+{"level":"info","message":"questionController: save question to database","timestamp":"2019-01-30T10:36:08.078Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:36:14.087Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:36:14.115Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:36:14.115Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:36:14.115Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:36:14.162Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:36:14.162Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: studenttwo@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:36:28.559Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 2","timestamp":"2019-01-30T10:36:28.560Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:36:38.415Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:36:38.455Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:36:38.455Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:36:38.456Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:36:46.096Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:36:46.125Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:36:46.125Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:36:46.125Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:36:46.167Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:36:46.167Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: studenttwo@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:36:58.312Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 2","timestamp":"2019-01-30T10:36:58.312Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:37:11.777Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:11.842Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:11.842Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:37:11.843Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:11.844Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:11.845Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:37:11.845Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:30.284Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:30.285Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:37:30.285Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:36.329Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:36.329Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:37:36.329Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:37:36.329Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:39.451Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:39.451Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:37:39.451Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:37:39.451Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:43.247Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:43.247Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:37:43.247Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:37:43.247Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:46.572Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:46.572Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:37:46.572Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:37:46.573Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:52.991Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:52.992Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:37:52.992Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:57.415Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:57.415Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:37:57.415Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:37:57.415Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:37:58.879Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:37:58.879Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:37:58.879Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:37:58.879Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:00.361Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:00.361Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:38:00.361Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:38:00.361Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:02.277Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:02.278Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:38:02.278Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:38:02.278Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:04.345Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:04.345Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:38:04.346Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:38:04.346Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:07.507Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:07.507Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:38:07.507Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:38:07.507Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:15.514Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:15.514Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:38:15.514Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:17.195Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:17.196Z"}
+{"level":"info","message":"lectureController: save question set","timestamp":"2019-01-30T10:38:17.197Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:20.070Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:20.070Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:38:20.070Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:25.127Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:25.127Z"}
+{"level":"info","message":"questionController: get instructor questions","timestamp":"2019-01-30T10:38:25.127Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:29.873Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:29.873Z"}
+{"level":"info","message":"questionController: get question","timestamp":"2019-01-30T10:38:29.873Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:31.763Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:31.763Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:38:31.763Z"}
+{"level":"info","message":"questionController: edit question","timestamp":"2019-01-30T10:38:31.763Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:38:37.673Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:38:37.697Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:38:37.697Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:38:37.697Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:38:37.734Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:38:37.734Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: studenttwo@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:38:44.543Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 2","timestamp":"2019-01-30T10:38:44.543Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:39:07.596Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:39:07.648Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:39:07.649Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:39:07.649Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:39:07.653Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:39:07.654Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:39:07.654Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:39:07.657Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:39:07.658Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:39:07.658Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:39:32.651Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:39:32.653Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:39:32.653Z"}
+{"level":"info","message":"inputController: require tags","timestamp":"2019-01-30T10:39:32.653Z"}
+{"level":"info","message":"inputController: require question body","timestamp":"2019-01-30T10:39:32.653Z"}
+{"level":"info","message":"inputController: require answer choices","timestamp":"2019-01-30T10:39:32.654Z"}
+{"level":"info","message":"questionController: save question to database","timestamp":"2019-01-30T10:39:32.654Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:39:38.116Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:39:38.141Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:39:38.141Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:39:38.141Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:39:38.186Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:39:38.187Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: studenttwo@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:39:45.317Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 2","timestamp":"2019-01-30T10:39:45.317Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:40:03.483Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:40:03.535Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:40:03.536Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:40:03.536Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:40:03.543Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:40:03.543Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:40:03.544Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:40:03.550Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:40:03.550Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:40:03.550Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:40:03.551Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:40:03.552Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:40:03.552Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:40:11.957Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:40:11.981Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:40:11.981Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:40:11.982Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:40:12.032Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:40:12.032Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: studenttwo@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:40:40.655Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 2","timestamp":"2019-01-30T10:40:40.655Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:40:43.701Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: studenttwo@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:40:45.936Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 2","timestamp":"2019-01-30T10:40:45.937Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:41:11.546Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:41:11.566Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:41:11.566Z"}
+{"level":"info","message":"questionController: get instructor questions","timestamp":"2019-01-30T10:41:11.567Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:41:11.617Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:41:11.617Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:41:11.617Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:41:11.620Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:41:11.620Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:41:11.620Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:41:11.625Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:41:11.625Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:41:11.625Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:41:11.626Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:41:11.627Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:41:11.627Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:41:11.628Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:41:11.629Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:41:11.629Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:41:11.630Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:41:11.630Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:41:11.631Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:10.224Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:10.224Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:42:10.224Z"}
+{"level":"info","message":"inputController: require tags","timestamp":"2019-01-30T10:42:10.224Z"}
+{"level":"info","message":"inputController: require question body","timestamp":"2019-01-30T10:42:10.224Z"}
+{"level":"info","message":"inputController: require answer choices","timestamp":"2019-01-30T10:42:10.225Z"}
+{"level":"info","message":"questionController: save question to database","timestamp":"2019-01-30T10:42:10.225Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:42:14.710Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:14.734Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:14.735Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:42:14.735Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:42:14.765Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:42:14.765Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: studenttwo@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:42:24.610Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 2","timestamp":"2019-01-30T10:42:24.611Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:42:39.145Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:39.222Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:39.222Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:42:39.222Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:39.224Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:39.224Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:42:39.224Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:39.235Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:39.235Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:42:39.235Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:39.250Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:39.251Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:42:39.251Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:39.256Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:39.256Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:42:39.256Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:39.261Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:39.262Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:42:39.262Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:39.263Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:39.264Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:42:39.264Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:43.038Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:43.039Z"}
+{"level":"info","message":"questionController: get instructor questions","timestamp":"2019-01-30T10:42:43.039Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:47.687Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:47.688Z"}
+{"level":"info","message":"questionController: get question","timestamp":"2019-01-30T10:42:47.688Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:42:49.806Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:42:49.806Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:42:49.806Z"}
+{"level":"info","message":"questionController: edit question","timestamp":"2019-01-30T10:42:49.806Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:43:06.962Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:43:06.995Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:43:06.995Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:43:06.995Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:43:07.036Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:43:07.036Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:43:12.787Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:43:18.172Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:43:18.172Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:43:18.172Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:43:23.746Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:43:23.746Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:43:23.746Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:43:23.746Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:43:28.261Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:43:28.261Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:43:28.261Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:43:28.261Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:43:43.348Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:43:43.348Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:43:43.348Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:43:43.348Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:43:48.905Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:43:48.905Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:43:48.905Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:43:48.905Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:43:54.991Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:43:54.991Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:43:54.991Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:43:54.992Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:43:59.443Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:43:59.444Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:43:59.444Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:43:59.444Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:00.493Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:00.493Z"}
+{"level":"info","message":"questionController: get instructor questions","timestamp":"2019-01-30T10:44:00.493Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:08.344Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:08.344Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:44:08.344Z"}
+{"level":"info","message":"questionController: delete question","timestamp":"2019-01-30T10:44:08.345Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:08.375Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:08.375Z"}
+{"level":"info","message":"questionController: get instructor questions","timestamp":"2019-01-30T10:44:08.376Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:12.426Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:12.426Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:44:12.426Z"}
+{"level":"info","message":"questionController: delete question","timestamp":"2019-01-30T10:44:12.426Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:12.446Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:12.447Z"}
+{"level":"info","message":"questionController: get instructor questions","timestamp":"2019-01-30T10:44:12.447Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:15.189Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:15.190Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:44:15.190Z"}
+{"level":"info","message":"questionController: delete question","timestamp":"2019-01-30T10:44:15.190Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:15.211Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:15.211Z"}
+{"level":"info","message":"questionController: get instructor questions","timestamp":"2019-01-30T10:44:15.211Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:21.807Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:21.807Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:44:21.807Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:25.889Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:25.889Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:44:25.889Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:44:25.889Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:44:29.305Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:44:29.306Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:44:29.306Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:02.149Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:02.150Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:02.150Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:06.221Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:06.221Z"}
+{"level":"info","message":"authorizeController: instructor check","timestamp":"2019-01-30T10:45:06.221Z"}
+{"level":"info","message":"questionController: get all questions","timestamp":"2019-01-30T10:45:06.221Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:10.778Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:10.779Z"}
+{"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-01-30T10:45:10.779Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:12.592Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:12.593Z"}
+{"level":"info","message":"lectureController: save question set","timestamp":"2019-01-30T10:45:12.593Z"}
+{"level":"info","message":"Socket.io: Starting Live Lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:45:26.133Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:26.156Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:26.157Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:26.157Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: istructorone@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:45:26.202Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 1","timestamp":"2019-01-30T10:45:26.202Z"}
+{"level":"info","message":"Socket.io: Joining Live Lecture: studenttwo@g.ncu.edu.tw, 5c517ba4293d091298467981","timestamp":"2019-01-30T10:45:30.433Z"}
+{"level":"info","message":"Socket.io: emitting live lecture: 5c517ba4293d091298467981, updated user total: 2","timestamp":"2019-01-30T10:45:30.433Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:45:48.261Z"}
+{"level":"info","message":"Socket.io: retiring live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:45:48.262Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.326Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.326Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.326Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.347Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.347Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.348Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.351Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.351Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.351Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.353Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.353Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.353Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.374Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.374Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.375Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.376Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.377Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.377Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.389Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.389Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.390Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.391Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.391Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.392Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.394Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.394Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.395Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.409Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.410Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.410Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.413Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.413Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.413Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.416Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.416Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.416Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.425Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.426Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.426Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.432Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.432Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.432Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.439Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.439Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.439Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.445Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.445Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.445Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.451Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.451Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.451Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.457Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.458Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:45:48.458Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.513Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.514Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.514Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.516Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.516Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.516Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.517Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.518Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.518Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.534Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.534Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.535Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.557Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.558Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.558Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.565Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.565Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.566Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.679Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.680Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.680Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.737Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.737Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.737Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.746Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.747Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.747Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:45:48.758Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:45:48.758Z"}
+{"level":"info","message":"courseController: get course info","timestamp":"2019-01-30T10:45:48.758Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:45:48.766Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:46:01.239Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:46:01.239Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:46:01.239Z"}
+{"level":"info","message":"lectureController: get instructor results","timestamp":"2019-01-30T10:46:01.286Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:46:12.630Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-01-30T10:46:12.630Z"}
+{"level":"info","message":"lectureController: get lecture","timestamp":"2019-01-30T10:46:12.630Z"}
+{"level":"info","message":"lectureController: get instructor results","timestamp":"2019-01-30T10:46:12.668Z"}
+{"level":"info","message":"Socket.io: user disconnected: istructorone@g.ncu.edu.tw","timestamp":"2019-01-30T10:46:44.680Z"}
+{"level":"info","message":"Socket.io: clearing live lecture 5c517ba4293d091298467981","timestamp":"2019-01-30T10:46:44.680Z"}
+{"level":"info","message":"Socket.io: ending live lecture: 5c517ba4293d091298467981","timestamp":"2019-01-30T10:46:44.680Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-01-30T10:46:44.689Z"}
+{"level":"info","message":"tokenController: clear token","timestamp":"2019-01-30T10:46:44.690Z"}
+{"level":"info","message":"tokenController: clear cookie JWT","timestamp":"2019-01-30T10:46:44.690Z"}
