@@ -27,6 +27,10 @@ app.controller('Create.Course.Controller', function($scope, $element, $state, RE
     }, {
         id: 2,
         name: "FAL"
+    },
+    {
+        id: 3,
+        name: "WIN"
     }];
 
     $scope.prefixes = [{
@@ -48,13 +52,18 @@ app.controller('Create.Course.Controller', function($scope, $element, $state, RE
 
     $scope.days = [{
         id: 0,
-        name: "MTWTF",
-        daysArr: ["mon","tue", "wed","thu", "fri"]
+        name: "MWT",
+        daysArr: ["mon", "wed","thu"]
+    }, {
+        id: 1,
+        name: "TTF",
+        daysArr: ["tue", "thu","fri"]
     }, {
         id: 1,
         name: "SS",
-        daysArr: ["sat", "sun"]
-    }];
+        daysArr: ["sat","sun"]
+    }
+];
 
     $scope.create = function() {
         $scope.loading = true;

@@ -294,7 +294,7 @@ app.filter('gradecolor', function() {
 
 app.filter('days', function() {
     return function(str) {
-        return str.includes("mon") ? "MWF" : "TR";
+        return str.includes("mon") ? "MWT" : "TTF";
     };
 });
 
