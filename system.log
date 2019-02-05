@@ -2478,3 +2478,18 @@
 {"level":"info","message":"tokenController: validate token","timestamp":"2019-02-04T02:39:06.099Z"}
 {"level":"info","message":"tokenController: refresh token","timestamp":"2019-02-04T02:39:06.100Z"}
 {"level":"info","message":"lectureController: add question to lecture","timestamp":"2019-02-04T02:39:06.100Z"}
+{"level":"info","message":"inputController: require username","timestamp":"2019-02-05T14:21:03.668Z"}
+{"level":"info","message":"inputController: require password","timestamp":"2019-02-05T14:21:03.692Z"}
+{"level":"info","message":"authenticateController: Authenticate user: instructorone@g.ncu.edu.tw","timestamp":"2019-02-05T14:21:03.692Z"}
+{"level":"info","message":"courseController: update student status","timestamp":"2019-02-05T14:21:03.918Z"}
+{"level":"info","message":"tokenController: generate token","timestamp":"2019-02-05T14:21:03.918Z"}
+{"level":"info","message":"tokenController: set cookie JWT","timestamp":"2019-02-05T14:21:03.934Z"}
+{"level":"info","message":"Socket.io: Connection from: ::1","timestamp":"2019-02-05T14:21:04.087Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-02-05T14:21:04.101Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-02-05T14:21:04.104Z"}
+{"level":"info","message":"authorizeController: admin/self check","timestamp":"2019-02-05T14:21:04.104Z"}
+{"level":"info","message":"userController: get user","timestamp":"2019-02-05T14:21:04.104Z"}
+{"level":"info","message":"tokenController: validate token","timestamp":"2019-02-05T14:21:04.199Z"}
+{"level":"info","message":"tokenController: refresh token","timestamp":"2019-02-05T14:21:04.199Z"}
+{"level":"info","message":"authorizeController: student/instructor authorize","timestamp":"2019-02-05T14:21:04.199Z"}
+{"level":"info","message":"courseController: get user courses","timestamp":"2019-02-05T14:21:04.200Z"}
