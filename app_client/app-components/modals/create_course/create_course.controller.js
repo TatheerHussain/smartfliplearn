@@ -27,10 +27,6 @@ app.controller('Create.Course.Controller', function($scope, $element, $state, RE
     }, {
         id: 2,
         name: "FAL"
-    },
-    {
-        id: 3,
-        name: "WIN"
     }];
 
     $scope.prefixes = [{

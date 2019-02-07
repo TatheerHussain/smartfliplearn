@@ -2,7 +2,7 @@
 "use strict";
 
 module.exports = {
-    'database': 'mongodb://localhost/flilearn',
+    'database': 'mongodb://localhost/fliplearning',
     'jwt_secret': 'fliplearning',
     'log_file': 'system.log',
     'jwt_settings': {

@@ -2,13 +2,13 @@
 /* jshint esversion: 6 */
 
 "use strict";
-
-var config = require('./../config'),
+ 
+var config = require('../config'),
     mongoose = require('mongoose'),
-    Lecture = require('./../app_api_v2/models/lectureModel'),
-    LiveLecture = require('./../app_api_v2/models/liveLectureModel'),
-    Question = require('./../app_api_v2/models/questionModel'),
-    Result = require('./../app_api_v2/models/resultModel');
+    Lecture = require('../app_api_v2/models/lectureModel'),
+    LiveLecture = require('../app_api_v2/models/liveLectureModel'),
+    Question = require('../app_api_v2/models/questionModel'),
+    Result = require('../app_api_v2/models/resultModel');
 
 exports = module.exports = function(io, winston) {
     var lectures = io.of('/lectures').on('connection', function(socket) {
