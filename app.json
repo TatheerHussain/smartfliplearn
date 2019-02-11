@@ -1,0 +1,8 @@
+{
+    "name": "smart flip learning",
+    "description":"the flip leanring app for smart classroom",
+    "repository":"https://github.com/TatheerHussain/smartfliplearn.git",
+    "logo":"smart flip learning",
+    "keywords":["smart flip learning","node","express", "mongodb","mongoose","active learning"],
+    "image":"smartfliplearnig"
+}
